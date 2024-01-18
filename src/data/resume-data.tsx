@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Doer and thinker. Having fun hacking backend applications.",
   summary:
-    "I am a software developer with 4 years of experience in building microservices, event-driven pipelines, and REST APIs using Golang and Python. I have extensive experience in managing various infrastructure components such as Kubernetes, networks, databases, and serverless services across multiple cloud environments such as AWS, GCP, and Azure.",
+    "I am an experienced software developer with four years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. My skills also include managing various infrastructure components such as Kubernetes, networks, databases, and serverless services across AWS, GCP, and Azure. Additionally, I have practical experience in data engineering, involving the creation and management of data pipelines.",
   avatarUrl: "https://avatars.githubusercontent.com/u/39134841?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       start: "2019-March",
       end: "2020-November",
       description:
-        "Implementation of Big data and AI services that were applied in projects such as network Analysis and Optimization, CNNs for disease detection & Legal document Automation",
+        "Implementation of Big data and AI services that were applied in projects such as network Analysis and Optimization, CNNs for disease detection & Legal document automation.",
     },
   ],
   skills: [
@@ -97,36 +97,11 @@ export const RESUME_DATA = {
       techStack: [
         "Engineer Documentation",
       ],
-      description: "Most of my ideas, notes on engineering, articles, podcasts, and other things I come across are located in this Git repository. Over time, I noticed that the engineers who are references in our field have the habit of documenting their trajectories/careers",
+      description: "Most of my ideas, notes on engineering, articles, podcasts, and other things I come across are located in this Git repository. Over time, I noticed that the engineers who are references in our field have the habit of documenting their trajectories/careers.",
       logo: ConsultlyLogo,
       link: {
         label: "",
         href: "https://github.com/perebaj/jjhandbook",
-      },
-    },
-    {
-      title: "JJ Template",
-      techStack: [
-        "Golang",
-      ],
-      description: "Automation of my golang projects using CLI",
-      logo: ConsultlyLogo,
-      link: {
-        label: "",
-        href: "https://github.com/perebaj/jjtemplate",
-      },
-    },
-    {
-      title: "Secret🤫🤫🤫",
-      techStack: [
-        "Golang",
-        "Cryptography"
-      ],
-      description: "Taking care of my secrets",
-      logo: ConsultlyLogo,
-      link: {
-        label: "",
-        href: "https://github.com/perebaj/secret",
       },
     },
     {
@@ -155,7 +130,7 @@ export const RESUME_DATA = {
         "Unit & Integration Tests",
         "OpenAPI Swagger",
       ],
-      description: "A Single place to share the underground. This app is designed for people who are looking for unique experiences and want to explore the hidden gems of their city.",
+      description: "A Single place to share the underground. This app is designed for people who are looking for unique experiences and want to share their favorite parties/events in their cities.",
       logo: ConsultlyLogo,
       link: {
         label: "",
@@ -176,7 +151,7 @@ export const RESUME_DATA = {
         "Authentication/Authorization",
         "OAuth2"
       ],
-      description: "Jamming around orders with API endpoints 🎸",
+      description: "Jamming around orders with API endpoints 🎸. This project is an attempt to gather some basic concepts of software development, from metrics and logs to authentication.",
       logo: ConsultlyLogo,
       link: {
         label: "",
@@ -191,11 +166,36 @@ export const RESUME_DATA = {
         "Goroutines/Channels",
         "Load Tests"
       ],
-      description: "Studies about the most basically race condition problem: Concurrent Counter",
+      description: "Studies about the most basically race condition problems using golang concurrency stack",
       logo: ConsultlyLogo,
       link: {
         label: "",
         href: "https://github.com/perebaj/metrica",
+      },
+    },
+    {
+      title: "JJ Template",
+      techStack: [
+        "Golang",
+      ],
+      description: "Automation of my golang projects using CLI",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://github.com/perebaj/jjtemplate",
+      },
+    },
+    {
+      title: "Secret🤫🤫🤫",
+      techStack: [
+        "Golang",
+        "Cryptography"
+      ],
+      description: "Taking care of my secrets",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://github.com/perebaj/secret",
       },
     },
   ],
