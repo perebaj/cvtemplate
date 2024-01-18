@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "",
-        href: "https://github.com/perebaj/playground",
+        href: "https://github.com/perebaj/jjhandbook",
       },
     },
     {
