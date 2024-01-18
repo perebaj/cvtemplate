@@ -20,259 +20,194 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Jonathan Santos Silva",
+  initials: "JJ",
+  location: "Brazil, GMT-3",
+  locationLink: "",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Doer and thinker. Having fun hacking backend applications.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I am a software developer with 4 years of experience in building microservices, event-driven pipelines, and REST APIs using Golang and Python. I have extensive experience in managing various infrastructure components such as Kubernetes, networks, databases, and serverless services across multiple cloud environments such as AWS, GCP, and Azure.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/39134841?v=4",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "perebaj@gmail.com",
+    tel: "+55996446051",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/perebaj",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/jonathan-silva-3436861b7/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Federal University of São Carlos",
+      degree: "Bachelor's Degree in Computer Engineer",
+      start: "2018",
+      end: "2023",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Birdie.ai",
+      link: "https://birdie.ai/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Mid Software Engineer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2020-November",
+      end: "2023-December",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Played a role as a developer at Birdie, starting from the angel investment stage and successfully securing 7 million in seed funding. At this time I worked on the development of APIs and microservices for data consumption through streaming and batch processing using Golang and Python, on cloud providers such as GCP, Azure, and AWS",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Federal University of São Carlos",
+      link: "https://www.ufscar.br/",
+      badges: ["On-site"],
+      title: "University Researcher",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2019-March",
+      end: "2020-November",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Studies about Big data and AI that were applied in projects such: Network Analysis and Optimization, CNNs for disease detection & Legal document Automantion",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Golang",
+    "Python",
+    "Kubernetes/Docker",
+    "Terraform",
+    "CI/CD",
+    "AWS/Azure/GCP",
+    "Rest API",
+    "Event Driven Pipelines",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "My Mind",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Engineer Documentation",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Most of my ideas, notes on engineering, articles, podcasts, and other things I come across are located in this Git repository. Over time, I noticed that the engineers who are references in our field have the habit of documenting their trajectories/careers",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "",
+        href: "https://github.com/perebaj/playground",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "JJ Template",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Golang",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "Automation of my golang projects using CLI",
+      logo: ConsultlyLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "",
+        href: "https://github.com/perebaj/jjtemplate",
       },
     },
     {
-      title: "Evercast",
+      title: "Secret🤫🤫🤫",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Golang",
+        "Cryptography"
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "Taking care of my secrets",
+      logo: ConsultlyLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "",
+        href: "https://github.com/perebaj/secret",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "Legitima",
+      techStack: [
+        "Golang",
+        "Authentication/Authorization",
+        "OAuth2"
+      ],
+      description: "Legitima is not a framework; rather, it serves as a centralized authentication system that seamlessly integrates various authenticators such as Google, GitHub, and more.",
+      logo: ConsultlyLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "",
+        href: "https://github.com/perebaj/legitima",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
+      title: "Parser",
+      techStack: [
+        "Golang",
+        "GPT3",
+        "LLM"
+      ],
+      description: "Parsing unstructured text coming from PDF files using GPT3 API",
+      logo: ConsultlyLogo,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "",
+        href: "https://github.com/perebaj/parser",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      title: "Onde Hoje",
+      techStack: [
+        "Golang",
+        "Resp API",
+        "Docker/Heroku",
+        "Metrics",
+        "PostgresDB/DB Migrations",
+        "Structured Logs",
+        "Unit & Integration Tests",
+        "OpenAPI Swagger",
+      ],
+      description: "A Single place to share the underground. This app is designed for people who are looking for unique experiences and want to explore the hidden gems of their city.",
+      logo: ConsultlyLogo,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "",
+        href: "https://github.com/perebaj/ondehj",
       },
     },
     {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
+      title: "Contractus",
+      techStack: [
+        "Golang",
+        "Resp API",
+        "Docker/Heroku",
+        "Metrics",
+        "PostgresDB/DB Migrations",
+        "Structured Logs",
+        "Unit & Integration Tests",
+        "OpenAPI Swagger",
+        "Authentication/Authorization",
+        "OAuth2"
+      ],
+      description: "Jamming around orders with API endpoints 🎸",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://github.com/perebaj/contractus",
+      },
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      title: "Metrica",
+      techStack: [
+        "Golang",
+        "Concurrency",
+        "Goroutines/Channels",
+        "Load Tests"
+      ],
+      description: "Studies about the most basically race condition problem: Concurrent Counter",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://github.com/perebaj/metrica",
+      },
     },
   ],
 } as const;

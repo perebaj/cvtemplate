@@ -2,7 +2,19 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    command: 
+      - /bin/sh
+      - -c
+      - | 
+        npm run build
+        npm start
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
+    build:
+      context: .
+      dockerfile: ./Dockerfile.dev
     ports:
       - '3000:3000'
     environment:
