@@ -59,7 +59,7 @@ export const RESUME_DATA = {
       company: "Birdie.ai",
       link: "https://birdie.ai/",
       badges: ["Remote"],
-      title: "Mid Software Engineer",
+      title: "Software Engineer",
       logo: ParabolLogo,
       start: "2020-November",
       end: "2023-December",
