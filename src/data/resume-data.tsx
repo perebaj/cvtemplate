@@ -147,7 +147,7 @@ export const RESUME_DATA = {
       title: "Onde Hoje",
       techStack: [
         "Golang",
-        "Resp API",
+        "Rest API",
         "Docker/Heroku",
         "Metrics",
         "PostgresDB/DB Migrations",
@@ -166,7 +166,7 @@ export const RESUME_DATA = {
       title: "Contractus",
       techStack: [
         "Golang",
-        "Resp API",
+        "Rest API",
         "Docker/Heroku",
         "Metrics",
         "PostgresDB/DB Migrations",
