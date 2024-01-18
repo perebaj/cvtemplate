@@ -87,6 +87,9 @@ export const RESUME_DATA = {
     "AWS/Azure/GCP",
     "Rest API",
     "Event Driven Pipelines",
+    "Unit, Integration & Load Tests",
+    "Grafana/Prometheus",
+    "ELK Stack"
   ],
   projects: [
     {
