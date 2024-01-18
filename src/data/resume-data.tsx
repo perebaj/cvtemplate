@@ -144,20 +144,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Parser",
-      techStack: [
-        "Golang",
-        "GPT3",
-        "LLM"
-      ],
-      description: "Parsing unstructured text coming from PDF files using GPT3 API",
-      logo: ConsultlyLogo,
-      link: {
-        label: "",
-        href: "https://github.com/perebaj/parser",
-      },
-    },
-    {
       title: "Onde Hoje",
       techStack: [
         "Golang",
