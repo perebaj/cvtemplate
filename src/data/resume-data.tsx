@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Doer and thinker. Having fun hacking backend applications.",
   summary:
-    "I am an experienced software developer with four years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. My skills also include managing various infrastructure components such as Kubernetes, networks, databases, and serverless services across AWS, GCP, and Azure. Additionally, I have practical experience in data engineering, involving the creation and management of data pipelines.",
+    "I am an experienced software developer with 4 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. My skills also include managing various infrastructure components such as Kubernetes, networks, databases, and serverless services across AWS, GCP, and Azure. Additionally, I have practical experience in data engineering, involving the creation and management of data pipelines.",
   avatarUrl: "https://avatars.githubusercontent.com/u/39134841?v=4",
   personalWebsiteUrl: "",
   contact: {
