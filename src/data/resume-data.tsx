@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       start: "2019-March",
       end: "2020-November",
       description:
-        "Studies about Big data and AI that were applied in projects such: Network Analysis and Optimization, CNNs for disease detection & Legal document Automantion",
+        "Implementation of Big data and AI services that were applied in projects such: Network Analysis and Optimization, CNNs for disease detection & Legal document Automantion",
     },
   ],
   skills: [
