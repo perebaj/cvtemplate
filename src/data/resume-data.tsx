@@ -61,8 +61,8 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Software Engineer",
       logo: ParabolLogo,
-      start: "2020-November",
-      end: "2023-December",
+      start: "November/2020",
+      end: "December/2023",
       description:
         "Played a role as a developer at Birdie, starting from the angel investment stage and successfully securing 7 million in seed funding. At this time I worked on the development of APIs and microservices for data consumption through streaming and batch processing using Golang and Python, on cloud providers such as GCP, Azure, and AWS",
     },
@@ -72,8 +72,8 @@ export const RESUME_DATA = {
       badges: ["On-site"],
       title: "University Researcher",
       logo: ClevertechLogo,
-      start: "2019-March",
-      end: "2020-November",
+      start: "March/2019",
+      end: "November/2020",
       description:
         "Implementation of Big data and AI services that were applied in projects such as network Analysis and Optimization, CNNs for disease detection & Legal document automation.",
     },
