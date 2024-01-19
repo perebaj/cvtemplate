@@ -127,7 +127,6 @@ export const RESUME_DATA = {
         "Metrics",
         "PostgresDB/DB Migrations",
         "Structured Logs",
-        "Unit & Integration Tests",
         "OpenAPI Swagger",
       ],
       description: "A Single place to share the underground. This app is designed for people who are looking for unique experiences and want to share their favorite parties/events in their cities.",
