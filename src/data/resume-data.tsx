@@ -105,6 +105,18 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Newsletter",
+      techStack: [
+        "Golang", "Web Scraping", "Goroutines/Channels", "MongoDB"
+      ],
+      description: "A personal project to scrape the blog posts from my favorite Tech Magicians and sent it to my email.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://github.com/perebaj/newsletter",
+      },
+    },
+    {
       title: "Legitima",
       techStack: [
         "Golang",
