@@ -140,12 +140,13 @@ export const RESUME_DATA = {
         "PostgresDB/DB Migrations",
         "Structured Logs",
         "OpenAPI Swagger",
+        "react/nextjs"
       ],
       description: "A Single place to share the underground. This app is designed for people who are looking for unique experiences and want to share their favorite parties/events in their cities.",
       logo: ConsultlyLogo,
       link: {
         label: "",
-        href: "https://github.com/perebaj/ondehj",
+        href: "https://www.ondehj.app/",
       },
     },
     {
