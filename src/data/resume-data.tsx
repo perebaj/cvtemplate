@@ -56,7 +56,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Birdie.ai",
+      company: "Birdie.ai - Palo Alto, CA",
       link: "https://birdie.ai/",
       badges: ["Remote"],
       title: "Software Engineer",
@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       "Startup develpment. Starting from the angel investment stage and successfully securing 7 million in seed funding.",
     },
     {
-      company: "Federal University of São Carlos",
+      company: "Federal University of São Carlos - Brazil, SP",
       link: "https://www.ufscar.br/",
       badges: ["On-site"],
       title: "University Researcher",
