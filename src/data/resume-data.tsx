@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Doer and thinker. Having fun hacking backend applications.",
   summary:
-    "I am an experienced software developer with 4 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. My skills also include managing various infrastructure components such as Kubernetes, networks, databases, and serverless services across AWS, GCP, and Azure. Additionally, I have practical experience in data engineering, involving the creation and management of data pipelines.",
+    "Software developer with 4 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. My skills also include managing various infrastructure components in different cloud providers such as AWS, Azure, and GCP.",
   avatarUrl: "https://avatars.githubusercontent.com/u/39134841?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -49,7 +49,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Federal University of São Carlos",
-      degree: "Bachelor's Degree in Computer Engineer",
+      degree: "Bachelor's Degree in Computer Engineer | Focus on AI and Big Data",
       start: "2018",
       end: "2023",
     },
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       start: "November/2020",
       end: "December/2023",
       description:
-        "Played a role as a developer at Birdie, starting from the angel investment stage and successfully securing 7 million in seed funding. At this time I worked on the development of APIs and microservices for data consumption through streaming and batch processing using Golang and Python, on cloud providers such as GCP, Azure, and AWS",
+      "Startup develpment. Starting from the angel investment stage and successfully securing 7 million in seed funding.",
     },
     {
       company: "Federal University of São Carlos",
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       start: "March/2019",
       end: "November/2020",
       description:
-        "Implementation of Big data and AI services that were applied in projects such as network Analysis and Optimization, CNNs for disease detection & Legal document automation.",
+        "I helped build AI models and big data pipelines used on different companies and research projects.",
     },
   ],
   skills: [
