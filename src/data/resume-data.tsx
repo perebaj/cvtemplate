@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Doer and thinker. Having fun hacking backend applications.",
   summary:
-    "Software developer with 4 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. My skills also include managing various infrastructure components in different cloud providers such as AWS, Azure, and GCP.",
+    "I'm a software developer with 4 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. Additionally, I have experience managing various infrastructure components across different cloud providers such as AWS, Azure, and GCP.",
   avatarUrl: "https://avatars.githubusercontent.com/u/39134841?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       start: "November/2020",
       end: "December/2023",
       description:
-      "Startup develpment. Starting from the angel investment stage and successfully securing 7 million in seed funding.",
+      "Startup development, starting from the angel investment stage and successfully securing $7 million in seed funding.",
     },
     {
       company: "Federal University of São Carlos - Brazil, SP",
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       start: "March/2019",
       end: "November/2020",
       description:
-        "I helped build AI models and big data pipelines used on different companies and research projects.",
+        "Responsible for developing AI and Big Data projects utilized by companies in the region, as well as for the university.",
     },
   ],
   skills: [
