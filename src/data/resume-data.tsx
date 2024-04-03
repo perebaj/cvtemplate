@@ -86,6 +86,7 @@ export const RESUME_DATA = {
     "CI/CD",
     "AWS/Azure/GCP",
     "Rest API",
+    "Postgres/MongoDB",
     "Event Driven Pipelines",
     "Unit, Integration & Load Tests",
     "Grafana/Prometheus",
