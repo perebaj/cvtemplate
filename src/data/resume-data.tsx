@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Doer and thinker. Having fun hacking backend applications.",
   summary:
-    "I'm a software developer with 4 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. Additionally, I have experience managing various infrastructure components across different cloud providers such as AWS, Azure, and GCP.",
+    "I'm a software developer with 5 years of expertise in building microservices, event-driven pipelines, and REST APIs using Golang and Python. Additionally, I have experience managing various infrastructure components across different cloud providers such as AWS, Azure, and GCP.",
   avatarUrl: "https://avatars.githubusercontent.com/u/39134841?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/jonathan-silva-3436861b7/",
+        url: "https://www.linkedin.com/in/jjneno/",
         icon: LinkedInIcon,
       },
     ],
@@ -53,6 +53,12 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2023",
     },
+    {
+      school: "University of São Paulo",
+      degree: "Master's Degree in Computer Science focus on Big Data and AI",
+      start: "2024",
+      end: "Present"
+    }
   ],
   work: [
     {
