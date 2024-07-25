@@ -52,12 +52,6 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Engineer | Focus on AI and Big Data",
       start: "2018",
       end: "2023",
-    },
-    {
-      school: "University of São Paulo",
-      degree: "Master's Degree in Computer Science focus on Big Data and AI",
-      start: "2024",
-      end: "Present"
     }
   ],
   work: [
