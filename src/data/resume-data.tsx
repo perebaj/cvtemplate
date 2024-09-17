@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "April/2023",
       end: "Current",
-      description: "Building golang microservices and event-driven pipelines",
+      description: "Helping to enable the B2B payments ecosystem in Brazil.",
     },
     {
       company: "Birdie.ai - Palo Alto, CA",
