@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Software Engineer",
       logo: ParabolLogo,
-      start: "April/2023",
+      start: "April/2024",
       end: "Current",
       description: "Helping to enable the B2B payments ecosystem in Brazil.",
     },
