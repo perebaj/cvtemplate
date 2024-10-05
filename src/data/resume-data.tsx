@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Jonathan Santos Silva",
@@ -68,7 +68,8 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "April/2024",
       end: "Current",
-      description: "Helping to enable the B2B payments ecosystem in Brazil.",
+      description:
+        "Helping to enable the B2B payments ecosystem in Brazil. * •Fix bugs in the infrastructure that reduced the on call person's workload to near zero. * •Improvement of the limit restitution by making the flow in real time instead of batch, * before the change this took 8 hours, now it is close to real time. * •Lead the implementation of a machine learning pipeline that consume data from internal and * external sources to calculate the risk of fraud in transactions, achieving the company goal * of 1% fraud rate, all this flow strictly followed an SLA of 5s.",
     },
     {
       company: "Birdie.ai - Palo Alto, CA",
@@ -120,6 +121,32 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Open Law Brasil",
+      techStack: ["Product development"],
+      description:
+        "The project was developed with 4 other people and was covered by the entrepreneurship program of the University of São Paulo.",
+    },
+    {
+      title: "Onde Hoje",
+      techStack: [
+        "Golang",
+        "Rest API",
+        "Docker/Heroku",
+        "Metrics",
+        "PostgresDB/DB Migrations",
+        "Structured Logs",
+        "OpenAPI Swagger",
+        "react/nextjs",
+      ],
+      description:
+        "Create an app that centralize all the events in my University. 500 users logged in the first week.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://www.ondehj.app/",
+      },
+    },
+    {
       title: "Newsletter",
       techStack: ["Golang", "Web Scraping", "Goroutines/Channels", "MongoDB"],
       description:
@@ -139,26 +166,6 @@ export const RESUME_DATA = {
       link: {
         label: "",
         href: "https://github.com/perebaj/legitima",
-      },
-    },
-    {
-      title: "Onde Hoje",
-      techStack: [
-        "Golang",
-        "Rest API",
-        "Docker/Heroku",
-        "Metrics",
-        "PostgresDB/DB Migrations",
-        "Structured Logs",
-        "OpenAPI Swagger",
-        "react/nextjs",
-      ],
-      description:
-        "A Single place to share the underground. This app is designed for people who are looking for unique experiences and want to share their favorite parties/events in their cities.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "",
-        href: "https://www.ondehj.app/",
       },
     },
     {

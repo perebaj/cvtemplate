@@ -3,6 +3,10 @@
 dev/start:
 	docker-compose up -d
 
+.PHONY: run
+run:
+	npx next dev
+
 ## Stop
 .PHONY: dev/stop
 dev/stop:
