@@ -68,8 +68,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "April/2024",
       end: "Current",
-      description:
-        "Helping to enable the B2B payments ecosystem in Brazil. * •Fix bugs in the infrastructure that reduced the on call person's workload to near zero. * •Improvement of the limit restitution by making the flow in real time instead of batch, * before the change this took 8 hours, now it is close to real time. * •Lead the implementation of a machine learning pipeline that consume data from internal and * external sources to calculate the risk of fraud in transactions, achieving the company goal * of 1% fraud rate, all this flow strictly followed an SLA of 5s.",
+      description: "Helping to enable the B2B payments ecosystem in Brazil.",
     },
     {
       company: "Birdie.ai - Palo Alto, CA",
