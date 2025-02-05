@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { link } from "fs";
 
 export const RESUME_DATA = {
   name: "Jonathan Santos Silva",
@@ -45,6 +46,48 @@ export const RESUME_DATA = {
       },
     ],
   },
+  honors: [
+    {
+      title: "Bronze medal at the International Mathematical Olympiad",
+      subtitle: "Bronze medal at the International Mathematical Olympiad",
+      start: "Jan 2016",
+      end: "I represented my school in diverse marathons, from physics to mathematics and astronomy, this was our biggest achievement.",
+    },
+  ],
+  volunteering: [
+    {
+      organization: "CNCF",
+      position: "University Researcher",
+      role: "Engineer",
+      link: "https://github.com/perebaj",
+      start: "Jun 2024",
+      end: "Present",
+      badges: [""],
+      description:
+        "Contribute with some projects in the CNCF ecosystem, like Prometheus, Prometheus Operator and OpenTelemetry.",
+    },
+    {
+      organization: "patos.dev",
+      position: "Founder",
+      link: "https://patos.dev",
+      start: "Jun 2024",
+      end: "Present",
+      role: "Founder",
+      badges: [""],
+      description:
+        "Promoting discussions about distributed systems, cybersec, software development and open source in my uni, focusing on freshmen and the ones that love to share knowledge. More: patos.dev",
+    },
+    {
+      organization: "TOPUS Aerospace projects",
+      role: "Director of Engineering",
+      start: "Sep 2024",
+      link: "https://www.instagram.com/grupotopus",
+      end: "Present",
+      badges: [""],
+      description:
+        "Topus is an engineering study group focused on aerospace component manufacturing. Here I basically design electronic systems that will fit in a rocket",
+    }
+  ],
   education: [
     {
       school: "Federal University of São Carlos",
@@ -124,6 +167,16 @@ export const RESUME_DATA = {
       techStack: ["Product development"],
       description:
         "The project was developed with 4 other people and was covered by the entrepreneurship program of the University of São Paulo.",
+    },
+    {
+      "title": "Brazil influencers ranking",
+      "techStack": ["NLP", "Python", "React"],
+      "description": "A project that ranks the most influential people in Brazil based on the work that they did for market agencies.",
+      "logo": ConsultlyLogo,
+      "link": {
+        "label": "",
+        "href": "https://nao-grita-28id.vercel.app/",
+      },
     },
     {
       title: "Onde Hoje",

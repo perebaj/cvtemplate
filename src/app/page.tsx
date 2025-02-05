@@ -172,14 +172,66 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
+          <h2 className="text-xl font-bold">Honors and Awards</h2>
+          {RESUME_DATA.honors.map((honor) => {
+            return (
+              <Card key={honor.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {honor.subtitle}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {honor.start} - {honor.end}
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            );
+          })}
         </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Volunteering</h2>
+          {RESUME_DATA.volunteering.map((volunteer) => {
+            return (
+              <Card key={volunteer.organization}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={volunteer.link}>
+                        {volunteer.organization}
+                      </a>
 
+                      <span className="inline-flex gap-x-1">
+                        {volunteer.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {volunteer.start} - {volunteer.end}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none">
+                    {volunteer.role}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {volunteer.description.split(/[\*\-]/).map((item, index) => (
+                    <p key={index}>{item.trim()}</p>
+                  ))}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
