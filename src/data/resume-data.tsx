@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       end: "Present",
       badges: [""],
       description:
-        "Topus is an engineering study group focused on aerospace component manufacturing. Here I basically design electronic systems that will fit in a rocket",
+        "Topus is an engineering study group focused on aerospace component manufacturing. Here i'm building a hybrid rocket engine from scratch.",
     }
   ],
   education: [
