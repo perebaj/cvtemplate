@@ -79,7 +79,7 @@ export const RESUME_DATA = {
     },
     {
       organization: "TOPUS Aerospace projects",
-      role: "Director of Engineering",
+      role: "Engineer",
       start: "Sep 2024",
       link: "https://www.instagram.com/grupotopus",
       end: "Present",
