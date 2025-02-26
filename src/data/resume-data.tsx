@@ -68,11 +68,11 @@ export const RESUME_DATA = {
     },
     {
       organization: "patos.dev",
-      position: "Founder",
+      position: "engineer",
       link: "https://patos.dev",
       start: "Jun 2024",
       end: "Present",
-      role: "Founder",
+      role: "engineer",
       badges: [""],
       description:
         "Promoting discussions about distributed systems, cybersec, software development and open source in my uni, focusing on freshmen and the ones that love to share knowledge. More: patos.dev",
