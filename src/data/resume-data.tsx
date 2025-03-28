@@ -104,6 +104,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Linux Foundation",
+      link: "https://mentorship.lfx.linuxfoundation.org/project/47603a7d-4dc7-48f0-968f-21c2f18f4e3c",
+      badges: ["Part-time, Remote"],
+      title: "Software Engineer",
+      logo: ParabolLogo,
+      start: "January/2025",
+      end: "May/2025",
+      description: "After 1 year straight contributing to the CNCF ecosystem, I was accepted in the mentorship program of the CNCF, where I was mentored by Senior Engineers from the Prometheus and OpenTelemetry projects. Here I develop the code responsible to receive and export metrics from the new prometheus protocol format to OpenTelemetry. You can check all my work on Github. @perebaj",
+    },
+    {
       company: "Tino, Brazil",
       link: "https://www.tino.com.br/",
       badges: ["Remote"],

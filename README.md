@@ -5,22 +5,4 @@
 Simple web app that renders minimalist CV with print-friendly layout.
 
 
-# Run with Docker
-
-Start the dev environemtn
-
-```
-make dev/start
-```
-
-Stop the Container
-
-```
-make dev/stop 
-```
-
-List all avaiable commands
-
-```
-make help
-```
+`make run`
